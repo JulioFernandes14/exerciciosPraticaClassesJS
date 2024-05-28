@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contatos</title>
+
+    <style>
+        input,button {
+            width: 300px;
+            margin: 20px;
+            padding: 10px;
+            display: block;
+        }
+    </style>
+
+</head>
+
+<body>
+    
+    <main>
+        <form>
+            <input type="text" placeholder="Nome" class="nome">
+            <input type="text" placeholder="Email" class="email">
+            <input type="text" placeholder="Celular: ex: (21) 91010-1010" class="telefone">
+            <button type="button" class="btnAdicionar">Adicionar Contato</button>
+        </form>
+        <button type="button" class="btnLista">Exibir Lista de Contatos</button>
+        <button type="button" class="btnPesquisar">Pesquisar Contato</button>
+        <button type="button" class="btnExcluir">Excluir Contato</button>
+
+        <p class="painel"></p>
+
+    </main>
+
+    <script src="Contato.js"></script>
+    <script src="ListaContatos.js"></script>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
